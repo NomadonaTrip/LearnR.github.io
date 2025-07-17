@@ -18,6 +18,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- Bootstrap icon css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
     <!-- Custom css -->
     <link rel="stylesheet" href="assets/css/styles.css" />
     <title>DriveAware</title>
@@ -45,13 +50,13 @@
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Why XR?</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">DriveAware</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link border rounded" href="#">Link</a>
+                <a class="nav-link border rounded" href="#">Contact Us </a>
               </li>
             </ul>
           </div>
@@ -165,7 +170,7 @@
                   href="/book-a-demo"
                   class="btn btn-success btn-lg mt-3 d-inline-flex align-items-center rounded-5"
                 >
-                  <span class="button-text me-2">30-day free trial</span>
+                  <span class="button-text me-2">Prevent This Now</span>
                   <div class="button-hover-element"></div>
                   <i class="bi bi-arrow-right"></i>
                 </a>
@@ -174,13 +179,12 @@
             <div class="col-md-6">
               <!-- inner row containing the problem items -->
               <div class="problem-item">
-                <h3 class="h4 text-white">Crash = Catastrophe</h3>
-                <p class="text-secondary fs-5">
-                  The moment your teenager gets behind the wheel, your insurance
-                  costs explode. Teens ages 16 and 17 are nearly five times more
-                  likely to get into an accident, and when they do, you're
-                  facing financial challenges that could last for years.
-                </p>
+                <!-- vector image depicting the situation -->
+                <img
+                  src="assets/img/crash-costs.png"
+                  class="img-fluid"
+                  alt="teenage driver crash causes financial distress."
+                />
               </div>
             </div>
           </div>
@@ -189,19 +193,19 @@
             <div class="col-md-6">
               <!-- inner row containing the problem items -->
               <div class="problem-item">
-                <h3 class="h4 text-white">Crash = Catastrophe</h3>
+                <h3 class="h4 text-white">New Driver in North America</h3>
                 <p class="text-secondary fs-5">
-                  The moment your teenager gets behind the wheel, your insurance
-                  costs explode. Teens ages 16 and 17 are nearly five times more
-                  likely to get into an accident, and when they do, you're
-                  facing financial challenges that could last for years.
+                  Whether you're getting your first license, moving from another
+                  country, or haven't driven in years, the gaps in traditional
+                  driving instruction leave you vulnerable to expensive mistakes
+                  that will haunt your insurance record long after an incident.
                 </p>
                 <!--  -->
                 <a
                   href="/book-a-demo"
                   class="btn btn-success btn-lg mt-3 d-inline-flex align-items-center rounded-5"
                 >
-                  <span class="button-text me-2">30-day free trial</span>
+                  <span class="button-text me-2">Prevent This Now</span>
                   <div class="button-hover-element"></div>
                   <i class="bi bi-arrow-right"></i>
                 </a>
@@ -210,13 +214,12 @@
             <div class="col-md-6">
               <!-- inner row containing the problem items -->
               <div class="problem-item">
-                <h3 class="h4 text-white">Crash = Catastrophe</h3>
-                <p class="text-secondary fs-5">
-                  The moment your teenager gets behind the wheel, your insurance
-                  costs explode. Teens ages 16 and 17 are nearly five times more
-                  likely to get into an accident, and when they do, you're
-                  facing financial challenges that could last for years.
-                </p>
+                <!-- vector image depicting the problem -->
+                <img
+                  src="assets/img/long-tailed-costs.png"
+                  class="img-fluid"
+                  alt=""
+                />
               </div>
             </div>
           </div>
@@ -225,18 +228,17 @@
             <div class="col-md-6">
               <!-- inner row containing the problem items -->
               <div class="problem-item">
-                <h3 class="h4 text-white">Crash = Catastrophe</h3>
+                <h3 class="h4 text-white">The Experienced Driver Trap</h3>
                 <p class="text-secondary fs-5">
-                  The moment your teenager gets behind the wheel, your insurance
-                  costs explode. Teens ages 16 and 17 are nearly five times more
-                  likely to get into an accident, and when they do, you're
-                  facing financial challenges that could last for years.
+                  Years of driving without consequences have created dangerous
+                  shortcuts and unconscious bad habits. A single traffic ticket
+                  can raise car insurance costs as much as 95%.
                 </p>
                 <a
                   href="/book-a-demo"
                   class="btn btn-success btn-lg mt-3 d-inline-flex align-items-center rounded-5"
                 >
-                  <span class="button-text me-2">30-day free trial</span>
+                  <span class="button-text me-2">Prevent This Now </span>
                   <div class="button-hover-element"></div>
                   <i class="bi bi-arrow-right"></i>
                 </a>
@@ -245,13 +247,11 @@
             <div class="col-md-6">
               <!-- inner row containing the problem items -->
               <div class="problem-item">
-                <h3 class="h4 text-white">Crash = Catastrophe</h3>
-                <p class="text-secondary fs-5">
-                  The moment your teenager gets behind the wheel, your insurance
-                  costs explode. Teens ages 16 and 17 are nearly five times more
-                  likely to get into an accident, and when they do, you're
-                  facing financial challenges that could last for years.
-                </p>
+                <img
+                  src="assets/img/experience-trap.png"
+                  class="img-fluid"
+                  alt="experienced driver behind the wheel, over-confident, having bad driving habits"
+                />
               </div>
             </div>
           </div>
@@ -327,23 +327,109 @@
     </section>
 
     <!-- Solution -->
-    <section id="product" class="bg-white">
+    <section id="product" class="bg-light py-5">
       <div class="container-fluid container">
         <div class="row my-5">
-          <!-- Solution attribute 1 -->
+          <!-- Product Introduction -->
           <div class="col-md-6">
             <div class="product-reveal">
-              <h2 class="d-flex mx-auto">
-                DriveAware <span class="text-uppercase">vr</span>
+              <h2 class="d-flex mx-auto display-4">
+                Introducing &nbsp;<span class="fw-bold"> DriveAware</span>
               </h2>
+              <h2><span>vr</span> training for drivers</h2>
+              <p>
+                Our revolutionary VR situational awareness training doesn't just
+                teach safe driving - it rewires your brain to automatically
+                perform the life-saving habits that prevent accidents and
+                traffic violations. Using advanced gaze-tracking and
+                hand-tracking technology, we ensure every mirror check, every
+                shoulder look, and every intersection scan becomes as automatic
+                as breathing.
+              </p>
+              <a
+                href="/book-a-demo"
+                class="btn btn-success btn-lg mt-3 d-inline-flex align-items-center rounded-5"
+              >
+                <span class="button-text me-2">Sign up for Early Access</span>
+                <div class="button-hover-element"></div>
+                <i class="bi bi-arrow-right"></i>
+              </a>
             </div>
           </div>
-          <!-- solution attribute 2 -->
-
-          <!-- solution attribute 3 -->
+          <!-- Product image -->
+          <div class="col-md-6">
+            <div class="product-image">
+              <img
+                class="img-fluid rounded-4"
+                src="assets/img/driver_placeholder.png"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
+
+    <!-- Product video content -->
+
+    <section id="product-demo" class="bg-dark">
+      <div class="container-large container">
+        <div class="row">
+          <div class="col-md-12">
+            <!-- placeholder video -->
+            <div class="demo-vid overflow-hidden my-5">
+              <iframe
+                width="1280"
+                height="768"
+                class="rounded-5"
+                src="https://www.youtube.com/embed/NOKJDCqvvMk?si=f3vPPj_u9wKQIRRd"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <section id="footer">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <div class="col-md-4 d-flex align-items-center">
+            <a
+              href="/"
+              class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+              aria-label="Bootstrap"
+            >
+              <svg class="bi" width="30" height="24" aria-hidden="true">
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary"
+              >© 2025 Company, Inc</span
+            >
+          </div>
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#" aria-label="Instagram"
+                ><i class="bi bi-instagram fs-3"></i>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#" aria-label="Facebook"
+                ><i class="bi bi-facebook fs-3"></i>
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </section>
+
     <!-- Bootstrap js -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"

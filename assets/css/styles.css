@@ -73,7 +73,14 @@ html {
 /* ======================================== */
 
 #stats .card {
-  background-color: none !important;
+  /* background-color: transparent !important; */
+  background-color: transparent !important;
+}
+#stats .list-group-item {
+  background-color: transparent;
+}
+#stats .display-1 {
+  font-size: 6rem !important;
 }
 
 /* ===========Benefits Section============ */
@@ -83,6 +90,46 @@ html {
   height: 20rem !important;
 }
 
+/* ==========Product Section ========== */
+/* =================================== */
+
+/* Custom styles for hover effect on the button in the product section */
+#product .btn-success {
+  position: relative;
+  overflow: hidden;
+  transition: color 0.4s ease-in-out;
+  color: #f8f9fa; /* Initial text color */
+  background-color: #212529; /* Light grey background */
+  border-color: #f8f9fa;
+}
+
+#product .btn-success .button-hover-element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #266099; /* Dark background on hover */
+  transform: translateY(100%);
+  transition: transform 0.4s ease-in-out;
+  z-index: 1;
+}
+
+#product .btn-success:hover .button-hover-element {
+  transform: translateY(0);
+}
+
+#product .btn-success .button-text,
+.btn-success i {
+  position: relative;
+  z-index: 2;
+  transition: color 0.4s ease-in-out;
+}
+
+#product .btn-success:hover .button-text,
+.btn-success:hover i {
+  color: #f8f9fa; /* Text color on hover */
+}
 /* media query for hero text */
 @media (max-width: 920px) {
   #hero h1 {
