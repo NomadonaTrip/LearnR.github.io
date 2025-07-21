@@ -130,6 +130,10 @@ html {
 .btn-success:hover i {
   color: #f8f9fa; /* Text color on hover */
 }
+
+#sign-up {
+  margin: 5rem !important;
+}
 /* media query for hero text */
 @media (max-width: 920px) {
   #hero h1 {
