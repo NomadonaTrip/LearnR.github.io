@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 
 :root {
+  --animation-timing: 300ms ease-in-out;
 }
 
 body,
@@ -10,10 +11,24 @@ html {
   box-sizing: border-box;
   font-family: "questrial", sans-serif;
 }
+/* ======Navbar========= */
+/* ==================== */
 
 .custom-navbar-height {
   /* max-height: 60px !important; */
 }
+#navbar .btn {
+  background-color: white;
+  color: black;
+}
+#navbar .btn:hover {
+  background-color: transparent;
+  color: white;
+  transition: var(--animation-timing);
+}
+
+/* ====Hero section========= */
+/* ======================== */
 
 #hero h1 {
   font-weight: 500 !important;
@@ -25,6 +40,11 @@ html {
 /* =========problem section======= */
 /* =============================== */
 
+#problems img {
+  width: 25rem;
+  border: 1px solid white;
+  border-radius: 2rem;
+}
 /* Custom styles for hover effect on the button */
 .btn-success {
   position: relative;
@@ -132,12 +152,12 @@ html {
 }
 
 #sign-up {
-  margin: 5rem !important;
+  margin: 5rem 1rem !important;
 }
 /* media query for hero text */
 @media (max-width: 920px) {
   #hero h1 {
-    font-weight: 400 !important;
+    font-weight: 900 !important;
   }
   .hero-image {
     height: 13rem !important;
