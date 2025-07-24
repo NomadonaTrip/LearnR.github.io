@@ -151,8 +151,26 @@ html {
   color: #f8f9fa; /* Text color on hover */
 }
 
+/* ======Product Demo========== */
+/* =========================== */
+
+/* #product-demo iframe {
+  height: auto !important;
+} */
+/* =====Sign up section======= */
+/* ========================== */
 #sign-up {
   margin: 5rem 1rem !important;
+}
+
+#sign-up .btn {
+  background-color: #212529;
+}
+
+#sign-up .btn:hover {
+  transform: scale(1.1);
+  transition: var(--animation-timing);
+  background-color: #266099;
 }
 /* media query for hero text */
 @media (max-width: 920px) {
