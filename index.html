@@ -440,9 +440,21 @@
               </p> -->
             </div>
           </div>
+          <script type="text/javascript">
+            var submitted = false;
+          </script>
+          <iframe
+            name="hiddenConfirm"
+            id="hiddenConfirm"
+            style="display: none"
+            onload="if(submitted){window.location = 'index.html';}"
+          ></iframe>
           <div class="col-12 col-md-6 bg-white p-lg-5 rounded-4 mx-auto">
             <form
               action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe3nPV8sYl_e1FuPmocN4q39lT81JSBHTx6b1wkpPwa6lgopA/formResponse"
+              method="post"
+              target="hiddenConfirm"
+              onsubmit="submitted=true"
             >
               <div class="form-group">
                 <label for="Email">Email address</label>
