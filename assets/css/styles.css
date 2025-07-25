@@ -172,6 +172,13 @@ html {
   transition: var(--animation-timing);
   background-color: #266099;
 }
+
+/* =======footer section ====== */
+/* =========================== */
+
+#footer img {
+  height: 4rem;
+}
 /* media query for hero text */
 @media (max-width: 920px) {
   #hero h1 {
