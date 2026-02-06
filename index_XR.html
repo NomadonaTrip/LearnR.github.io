@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <!-- Font awesome css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Bootstrap icon css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>DriveAware</title>
+  </head>
+  <body class="bg-light">
+    <!-- navbar -->
+    <section id="navbar">
+      <nav
+        class="navbar navbar-expand-sm bg-black shadow navbar-dark m-4 py-4 custom-navbar-height rounded-4"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img
+              src="assets/img/learnr_logo_web.png"
+              alt="learnr immersive logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Why XR?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">DriveAware</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link border rounded btn" href="#sign-up"
+                  >Sign Up
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- hero section -->
+    <section id="hero">
+      <div class="container">
+        <div class="row justify-content-start">
+          <div class="col-xl-8">
+            <div class="hero-content my-5">
+              <div class="hero-text">
+                <h1 class="h1. Bootstrap heading display-3 text-capitalize">
+                  Train for the two seconds That define a lifetime.
+                </h1>
+                <p class="lead fs-2 text-capitalize">
+                  True safety isn't born in that two-second reaction. It's built
+                  by the hundred small habits that came before it.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="hero-image rounded-5 overflow-hidden">
+              <img
+                class="img-fluid"
+                src="assets/img/lady driving in virtual reality.webp"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pain point stats -->
+    <section id="stats" class="mt-5">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-sm-12 col-md-6">
+            <div class="stats-label w-50 text-capitalize">
+              <h2 class="fs-2">The hidden costs of poor driving habits</h2>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card border-0" style="width: 18rem">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item display-1 border-0 text-center px-3">
+                  <span class="counterup" data-target="43">43%</span>
+                </li>
+                <li class="list-group-item border-0 text-center px-3">
+                  Average insurance premium per incident
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card border-0" style="width: 18rem">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item display-1 border-0 text-center px-5">
+                  <span class="counterup" data-target="5">5</span>x
+                </li>
+                <li class="list-group-item border-0 text-center px-3">
+                  Teen first-year crash rate vs population.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card border-0" style="width: 18rem">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item display-1 border-0 text-center px-3">
+                  3-5
+                </li>
+                <li class="list-group-item border-0 text-center px-3">
+                  Years traffic incidents stay on record
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem Section  -->
+    <section id="problems">
+      <!-- Outer bento box containing all benefits -->
+      <div class="bg-dark m-4 rounded-4 overflow-hidden">
+        <div class="container-large container py-5">
+          <div class="row my-5">
+            <div class="col-md-6">
+              <!-- inner row containing the problem items -->
+              <div class="problem-item">
+                <h3 class="h4 text-white">New Teen Driver?</h3>
+                <p class="text-secondary fs-5">
+                  <span class="fw-bold"
+                    >Your child's safety- and your peace of mind, start with the
+                    right training.</span
+                  >
+                  Teen drivers face 5x higher accident rates in their first
+                  year. But families who invest in advanced safety training see
+                  up to 40% fewer incidents and significantly lower insurance
+                  premiums. Give your teen the skills that turn panic into
+                  precision.
+                </p>
+                <a
+                  href="#product"
+                  class="btn btn-success btn-lg mt-3 d-inline-flex align-items-center rounded-5"
+                >
+                  <span class="button-text me-2">Learn More </span>
+                  <div class="button-hover-element"></div>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+              <!-- inner row containing the problem items -->
+              <div class="problem-item">
+                <!-- vector image depicting the situation -->
+                <img
+                  src="assets/img/crash-costs.png"
+                  class="img-fluid"
+                  alt="teenage driver crash causes financial distress."
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Problem 2 -->
+          <div class="row my-5 mt-5">
+            <div class="col-md-6">
+              <!-- inner row containing the problem items -->
+              <div class="problem-item">
+                <h3 class="h4 text-white">New to Driving Here?</h3>
+                <p class="text-secondary fs-5">
+                  <span class="fw-bold"
+                    >Bridge the gap between where you drove before and how you
+                    drive here.</span
+                  >
+                  Whether you're getting your first license or adapting to new
+                  roads and rules, incomplete preparation leads to costly
+                  mistakes. Our training covers the specific scenarios and local
+                  driving patterns that catch new drivers off-guard, before they
+                  become expensive lessons.
+                </p>
+                <!--  -->
+                <a
+                  href="#product"
+                  class="btn btn-success btn-lg mt-3 d-inline-flex align-items-center rounded-5"
+                >
+                  <span class="button-text me-2">Learn More </span>
+                  <div class="button-hover-element"></div>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+              <!-- inner row containing the problem items -->
+              <div class="problem-item">
+                <!-- vector image depicting the problem -->
+                <img
+                  src="assets/img/long-tailed-costs.png"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <!-- problem-3 -->
+          <div class="row my-5">
+            <div class="col-md-6">
+              <!-- inner row containing the problem items -->
+              <div class="problem-item">
+                <h3 class="h4 text-white">Experienced Driver?</h3>
+                <p class="text-secondary fs-5">
+                  <span class="fw-bold"
+                    >Years of "no problems" might be creating your biggest
+                    risk.</span
+                  >
+                  Overconfidence leads to shortcuts. One preventable incident
+                  can increase your insurance costs by up to 95% and stay on
+                  your record for years. Refresh your skills and discover the
+                  defensive techniques that keep experienced drivers
+                  accident-free.
+                </p>
+                <a
+                  href="#product"
+                  class="btn btn-success btn-lg mt-3 d-inline-flex align-items-center rounded-5"
+                >
+                  <span class="button-text me-2">Learn More </span>
+                  <div class="button-hover-element"></div>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+              <!-- inner row containing the problem items -->
+              <div class="problem-item">
+                <img
+                  src="assets/img/experience-trap.png"
+                  class="img-fluid"
+                  alt="experienced driver behind the wheel, over-confident, having bad driving habits"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="benefits" class="bg-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="benefit-heading">
+              <h3 class="mx-auto text-capitalize text-center display-5">
+                Master Situational Awareness
+              </h3>
+              <p class="fs-4 text-center text-secondary">
+                Leverage the power of Gamified virtual reality to build
+                life-saving habits.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row gy-3">
+          <!-- Benefit 1 -->
+          <div class="col-md-3">
+            <div class="card benefit rounded-4">
+              <div class="card-body d-flex flex-column justify-content-center">
+                <h3 class="benefit-text fs-4">Gaze-tracking</h3>
+                <p>
+                  Gaze tracking and compliance monitoring builds unbreakable
+                  muscle memory that translates directly to real world driving.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Benefit 2 -->
+          <div class="col-md-3">
+            <div class="card benefit rounded-4">
+              <div class="card-body d-flex flex-column justify-content-center">
+                <h3 class="benefit-text fs-4">Unlimited Practice</h3>
+                <p>
+                  Familiarize yourself with driving scenarios without vehicle
+                  wear, trainer fees or accident risks.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Benefit 3 -->
+          <div class="col-md-3">
+            <div class="card benefit rounded-4">
+              <div class="card-body d-flex flex-column justify-content-center">
+                <h3 class="benefit-text fs-4">Gamified Learning</h3>
+                <p>
+                  Start with basic scenarios, advance through increasingly
+                  challenging situations only after proving mastery.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Benefit 4 -->
+          <div class="col-md-3">
+            <div class="card benefit rounded-4">
+              <div class="card-body d-flex flex-column justify-content-center">
+                <h3 class="benefit-text fs-4">Performance Tracking</h3>
+                <p>
+                  Monitor your progress over time. Watch yourself level up on
+                  situational awareness metrics.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solution -->
+    <section id="product" class="bg-light py-5">
+      <div class="container-fluid container">
+        <div class="row my-5">
+          <!-- Product Introduction -->
+          <div class="col-md-6">
+            <div class="product-reveal">
+              <h2 class="d-flex mx-auto display-4">
+                Introducing &nbsp;<span class="fw-bold"> DriveAware</span>
+              </h2>
+              <h2><span>vr</span> training for drivers</h2>
+              <p>
+                Our revolutionary VR situational awareness training doesn't just
+                teach safe driving - it rewires your brain to automatically
+                perform the life-saving habits that prevent accidents and
+                traffic violations. Using advanced gaze-tracking and
+                hand-tracking technology, we ensure every mirror check, every
+                shoulder look, and every intersection scan becomes as automatic
+                as breathing.
+              </p>
+              <a
+                href="#sign-up"
+                class="btn btn-success btn-lg mt-3 d-inline-flex align-items-center rounded-5"
+              >
+                <span class="button-text me-2">Sign up for Early Access</span>
+                <div class="button-hover-element"></div>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Product image -->
+          <div class="col-md-6">
+            <div class="product-image">
+              <img
+                class="img-fluid rounded-4"
+                src="assets/img/driver_placeholder.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product video content -->
+
+    <section id="product-demo" class="bg-dark m-4 rounded-4">
+      <div class="container-large container">
+        <div class="row">
+          <div class="col-md-12">
+            <!-- placeholder video -->
+            <div class="demo-vid overflow-hidden my-5">
+              <iframe
+                width="1280"
+                height="540"
+                class="rounded-5 align-items-center"
+                src="https://www.youtube.com/embed/Xdr-vIwfcVs?rel=0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sign up page -->
+
+    <section id="sign-up" class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 px-md-4 px-sm-1">
+            <div class="contact-msg display-3">
+              <h2 class="display-5">Drive Smarter, Sooner.</h2>
+              <p class="fs-5">
+                We're giving a limited group of drivers the chance to experience
+                our our situational awareness app before anyone else. As an
+                early access member, you'll:
+              </p>
+              <ul class="list-group-flush">
+                <li class="list-group-item fs-5 my-1">
+                  Get a head start on building unshakeable confidence and
+                  critical defensive skills.
+                </li>
+                <li class="list-group-item fs-5 my-1">
+                  Unlock Special Launch Benefits
+                </li>
+                <li class="list-group-item fs-5 my-1">
+                  Shape the Future of Driving Safety.
+                </li>
+              </ul>
+              <!-- <p class="fs-5">
+                This isn't just another course; it's your opportunity to protect
+                your loved ones, slash your insurance risks, and gain true
+                mastery behind the wheel..
+              </p> -->
+            </div>
+          </div>
+          <script type="text/javascript">
+            var submitted = false;
+          </script>
+          <iframe
+            name="hiddenConfirm"
+            id="hiddenConfirm"
+            style="display: none"
+            onload="if(submitted){window.location = 'index.html';}"
+          ></iframe>
+          <div class="col-12 col-md-6 bg-white p-lg-5 rounded-4 mx-auto">
+            <form
+              action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe3nPV8sYl_e1FuPmocN4q39lT81JSBHTx6b1wkpPwa6lgopA/formResponse"
+              method="post"
+              target="hiddenConfirm"
+              onsubmit="submitted=true"
+            >
+              <div class="form-group">
+                <label for="Email">Email address</label>
+                <input
+                  type="email"
+                  name="entry.811969323"
+                  class="form-control"
+                  id="email"
+                  aria-describedby="emailHelp"
+                  placeholder="Enter email"
+                />
+                <small id="emailHelp" class="form-text text-muted"
+                  >We'll never share your email with anyone else.</small
+                >
+              </div>
+              <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="entry.1168640243"
+                  id="first-name"
+                  placeholder="First Name"
+                />
+              </div>
+              <div class="form-group check-label">
+                <label>How would you describe yourself?</label>
+              </div>
+
+              <div class="form-check mb-3">
+                <input
+                  type="radio"
+                  class="form-check-input"
+                  name="entry.856446627"
+                  id="new-driver"
+                  value="New Driver (e.g. Getting first license, returning to driving, new to North America)"
+                />
+                <label class="form-check-label" for="new-driver">
+                  New Driver (e.g. Getting first license, returning to driving,
+                  new to North America)
+                </label>
+              </div>
+
+              <div class="form-check mb-3">
+                <input
+                  type="radio"
+                  name="entry.856446627"
+                  class="form-check-input"
+                  id="parent-teen"
+                  value="Parent of a Teen Driver"
+                />
+                <label class="form-check-label" for="parent-teen">
+                  Parent of a Teen Driver
+                </label>
+              </div>
+
+              <div class="form-check mb-3">
+                <input
+                  type="radio"
+                  name="entry.856446627"
+                  class="form-check-input"
+                  id="experienced-driver"
+                  value="Experienced Driver looking to improve skills"
+                />
+                <label class="form-check-label" for="experienced-driver">
+                  Experienced Driver looking to improve skills
+                </label>
+              </div>
+
+              <div class="form-group">
+                <label for="other-description">Other</label>
+                <input
+                  type="text"
+                  name="entry.856446627.other_option_response"
+                  class="form-control"
+                  id="other-description"
+                  placeholder="Specify"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-primary my-2">
+                Yes! I want Early Access
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <div class="col-md-4 d-flex align-items-center">
+            <a
+              href="/"
+              class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+              aria-label="Bootstrap"
+            >
+              <img
+                src="assets/img/logo_footer.png"
+                alt="Learnr Immersive logo"
+              />
+            </a>
+          </div>
+          <div class="copyright-info">
+            <p class="mb-3 mb-md-0 text-body-secondary">
+              © 2025 LearnR Immersive Inc
+            </p>
+          </div>
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#" aria-label="Instagram"
+                ><i class="bi bi-instagram fs-3"></i>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="text-body-secondary" href="#" aria-label="Facebook"
+                ><i class="bi bi-facebook fs-3"></i>
+              </a>
+            </li>
+          </ul>
+        </footer>
+        <!-- <div class="row">
+          <div class="col-md-6">
+            <div class="author-text">
+              <p>
+                Built by <a href="https://orbanforest.ca">Orban forest Inc.</a>
+              </p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- Bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom js -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
